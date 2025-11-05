@@ -29,7 +29,7 @@ export const InfoSectionWithImage = (props) => {
             <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
               {heading}
             </h2>
-            <p className="md:text-lg">{description}</p>
+            <p className="text-lg">{description}</p>
           </div>
           <div className="relative aspect-[4/3] w-full">
             <Image

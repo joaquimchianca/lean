@@ -18,7 +18,7 @@ module.exports = {
         'brand-dark-yellow': '#EDDF0D',
         'brand-light-yellow': '#FBF8CE',
         'brand-olive': '#5E5905',
-        'brand-accent': '#ED0CA6',
+        'brand-accent': '#f77f00',
         'brand-light-olive': '#E2DA9A',
         'whatsapp-dark-green': '#075e54',
         'whatsapp-accent': '#25d366'

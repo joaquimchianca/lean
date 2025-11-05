@@ -10,13 +10,13 @@ const TimelineItemDefaults = [
     value: "1990",
     trigger: "1990",
     content: {
-      date: "1990",
-      heading: "O Sonho Toma Forma: A Fundação do LEAN",
+      date: "05 de Dezembro de 1990",
+      heading: "Nasce um Sonho: A Fundação do LEAN",
       description:
-        "Movida por um profundo chamado de servir, Maria Dagmar Falcão de Melo planta a semente do Lar Espírita Alvorada Nova, registrando oficialmente a instituição que se tornaria um farol de esperança em Parnamirim.",
+        "O Lar Espírita Alvorada Nova é oficialmente registrado, nascendo do ideal de Maria Dagmar Falcão de Melo de materializar o amor e o cuidado em um verdadeiro lar para idosos.",
       image: {
         src: "/nossa-historia/1o-slide-carrossel.png",
-        alt: "Documento histórico ou símbolo da fundação do LEAN",
+        alt: "Imagem simbólica da fundação ou da fachada do LEAN",
       },
     },
   },
@@ -24,13 +24,13 @@ const TimelineItemDefaults = [
     value: "1991",
     trigger: "1991",
     content: {
-      date: "1991",
-      heading: "Um Ato de Amor: A Doação que Construiu o Futuro",
+      date: "23 de Maio de 1991",
+      heading: "Um Gesto de Amor Concreto: A Doação",
       description:
-        "Aos 66 anos, Dona Dagmar transforma seu ideal em realidade concreta ao doar o vasto terreno de 10 hectares, a terra fértil onde o LEAN floresceria e acolheria centenas de vidas.",
+        "Aos 66 anos, Dona Dagmar doa o terreno de 10 hectares onde o LEAN seria construído, um ato de responsabilidade social que transformou sua visão em um legado palpável.",
       image: {
         src: "/nossa-historia/2o-slide-carrossel.png",
-        alt: "Imagem simbólica da doação do terreno ou Dona Dagmar",
+        alt: "Retrato de Dona Dagmar ou imagem simbólica da terra doada",
       },
     },
   },
@@ -38,27 +38,27 @@ const TimelineItemDefaults = [
     value: "1998",
     trigger: "1998",
     content: {
-      date: "1998",
-      heading: "Reconhecimento Nacional: Uma Missão Validada",
+      date: "26 de Agosto de 1998",
+      heading: "Reconhecimento Nacional",
       description:
-        "O trabalho incansável do LEAN é oficialmente reconhecido em âmbito Federal como de utilidade pública, um selo que atesta a seriedade e o impacto de nossa dedicação ao próximo.",
+        "O LEAN tem sua missão validada em âmbito nacional, sendo oficialmente reconhecido como de utilidade pública Federal, atestando a seriedade e o impacto de seu trabalho.",
       image: {
-        src: "/nossa-historia/3o-slide-carrossel.png",
-        alt: "Fachada do LEAN ou um evento de celebração do reconhecimento",
+        src: "/nossa-historia/4o-slide-carrossel.png",
+        alt: "Foto do auditório ou de uma celebração no LEAN",
       },
     },
   },
   {
-    value: "2010",
-    trigger: "2010",
+    value: "2000s",
+    trigger: "Anos 2000",
     content: {
-      date: "Anos 2010",
-      heading: "Braços Abertos: Expandindo o Cuidado para a Comunidade",
+      date: "Expansão da Missão",
+      heading: "Abraçando a Comunidade",
       description:
-        "O LEAN transcende seus muros, abraçando a comunidade da Liberdade com programas vibrantes de esporte, cultura e apoio espiritual, transformando a vida de centenas de jovens.",
+        "O LEAN expande sua atuação para além dos idosos, abrindo as portas para a comunidade da Liberdade com programas de esporte, cultura e apoio para mais de 600 crianças e jovens.",
       image: {
-        src: "/nossa-historia/4o-slide-carrossel.png",
-        alt: "Jovens em atividade de karatê ou futebol no LEAN",
+        src: "/nossa-historia/3o-slide-carrossel.png",
+        alt: "Jovens participando de atividades esportivas ou culturais no LEAN",
       },
     },
   },
@@ -66,10 +66,10 @@ const TimelineItemDefaults = [
     value: "Hoje",
     trigger: "Hoje",
     content: {
-      date: "Hoje",
-      heading: "Um Legado Vivo de Amor e Serviço",
+      date: "O Legado Continua",
+      heading: "Um Farol de Cuidado e Esperança",
       description:
-        "Com 40 residentes acolhidos com dignidade e mais de 600 jovens impactados, o LEAN honra a visão de Dona Dagmar, pulsando como um coração de esperança e cuidado em Parnamirim.",
+        "Com 40 idosos acolhidos em uma infraestrutura de 2.500 m² e dezenas de programas ativos, o LEAN honra seu propósito servindo com amor, dignidade e respeito a todas as gerações.",
       image: {
         src: "/nossa-historia/5o-slide-carrossel.png",
         alt: "Foto atual e inspiradora dos residentes e voluntários do LEAN",

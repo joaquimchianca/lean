@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ percentage, headline, description }) => {
   return (
-    <div className="bg-brand-light-yellow p-8 text-black rounded-md">
+    <div className="bg-white/70  p-8 text-black rounded-md">
       <h3 className="mb-8 text-xl font-bold leading-[1.4] md:mb-10 md:text-2xl lg:mb-12">
         {headline}
       </h3>

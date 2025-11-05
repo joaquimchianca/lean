@@ -14,9 +14,9 @@ import {
 
 export const idososInfoSectionData = {
   icon: <HandHeart className="size-12" />,
-  heading: "Cuidado que Acolhe: Nossa Dedicação aos Idosos",
+  heading: "Um Lar Verdadeiro: Cuidado e Dignidade em Cada Dia",
   description:
-    "No LEAN, cada residente é abraçado com respeito e atenção individualizada. Oferecemos um ambiente seguro, nutrição balanceada e acompanhamento constante, celebrando a beleza de cada história de vida.",
+    "Para nossos 40 residentes, o LEAN é mais que um abrigo; é um verdadeiro lar. Em mais de 2.500 m² de área acessível, oferecemos não apenas cuidados essenciais, mas o mais importante: um ambiente de amor, carinho e respeito profundo pela jornada de cada um.",
   image: {
     src: "/nosso-trabalho/cuidado-com-idosos-1.png",
     alt: "Cuidadora conversando carinhosamente com um idoso residente do LEAN",
@@ -28,26 +28,26 @@ export const idososInfoSectionData = {
 export const idososFeatureSectionData = {
   image: {
     src: "/nosso-trabalho/cuidado-com-idosos-2.png",
-    alt: "Voluntária conversando com uma idosa residente do lar LEAN",
+    alt: "Voluntária sorrindo e auxiliando uma idosa em atividade no LEAN",
   },
   featureSections: [
     {
       icon: <HouseHeart className="size-8" />,
-      heading: "Cuidado com dignidade",
+      heading: "Infraestrutura de Acolhimento",
       description:
-        "Oferecemos um ambiente seguro e acolhedor que transforma a vida dos nossos idosos com respeito e carinho.",
+        "Nossa casa possui consultório odontológico, espaço de fisioterapia, lavanderia e câmara fria, garantindo que todas as necessidades sejam atendidas com profissionalismo e excelência.",
     },
     {
       icon: <Smile className="size-8" />,
-      heading: "Transparência Total",
+      heading: "Atividade e Propósito",
       description:
-        "Sua contribuição vai direto para o que importa: o bem-estar da nossa comunidade. Sem desvios, sem burocracia.",
+        "Respeitamos o desejo de se manter ativo. Oferecemos áreas de cultivo, oficinas de artesanato e costura, permitindo que nossos residentes continuem a produzir com alegria e propósito.",
     },
     {
       icon: <Handshake className="size-8" />,
-      heading: "Impacto que Conecta",
+      heading: "Amor como Primeiro Objetivo",
       description:
-        "Mais que um lar, somos um ponto de encontro que fortalece a comunidade e cria laços que duram a vida inteira.",
+        "Seguindo os preceitos do Evangelho, nossa equipe de profissionais e voluntários trabalha com um objetivo sublime: garantir que cada idoso se sinta amado, respeitado e em casa.",
     },
   ],
 };

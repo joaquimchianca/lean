@@ -1,10 +1,11 @@
 import Image from "next/image";
 import { Button } from "@relume_io/relume-ui";
 import { RxChevronRight } from "react-icons/rx";
+import Link from "next/link";
 
 export const ProgramsSectionDefaults = {
   tagline: "Nossa Missão",
-  heading: "Programas de Cuidado e Comunidade",
+  heading: "Programas para a Comunidade",
   description:
     "Transformando vidas através de serviços dedicados e compassivos que honram cada história.",
   cards: [
@@ -60,6 +61,9 @@ export const ProgramsSectionDefaults = {
 };
 
 const Card = ({ image, tagline, heading, description, button }) => {
+
+  const { href, ...buttonProps } = button
+
   return (
     <div className="flex flex-col overflow-hidden rounded-md bg-gray-300/50 text-black">
       <div className="relative w-full aspect-video">
@@ -78,9 +82,11 @@ const Card = ({ image, tagline, heading, description, button }) => {
           </h2>
           <p className="md:text-lg">{description}</p>
         </div>
-        <div className="mt-5 md:mt-6">
-          <Button {...button}>{button.title}</Button>
-        </div>
+        {/* <div className="mt-5 md:mt-6">
+          <Link href={href || "#"}>
+            <Button {...button}>{button.title}</Button>
+          </Link>
+        </div> */}
       </div>
     </div>
   );
@@ -112,6 +118,11 @@ export const ProgramsSection = (props) => {
             <Card key={index} {...card} />
           ))}
         </div>
+        <Link href={"/nosso-trabalho"} className="mx-auto block w-fit">
+          <button className="rounded-full bg-gray-300 px-6 py-2 mt-10 hover:bg-gray-200 transition-colors duration-300">
+              Saiba Mais
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -6,21 +6,21 @@ export const StatsSectionDefaults = {
   heading: "Nosso compromisso em números",
   stats: [
     {
-      title: "85%",
-      description: "Dos residentes relatam melhora na qualidade de vida",
-    },
-    {
-      title: "120",
-      description: "Famílias impactadas por nossos programas comunitários",
-    },
-    {
-      title: "12",
-      description: "Reuniões culturais e educacionais realizadas anualmente",
+      title: "40",
+      description: "Residentes recebendo atenção diária no nosso lar",
     },
     {
       title: "100%",
+      description: "Das doações financeiras são destinadas à manutenção do lar e cuidado para residentes",
+    },
+    {
+      title: "12",
+      description: "Reuniões culturais realizadas anualmente",
+    },
+    {
+      title: "600+",
       description:
-        "Dos recursos destinados ao LEAN são direcionados para nosso propósito de cuidado e amor",
+        "De jovens já participaram de nossos programas de esporte e conhecimento",
     },
   ],
   image: {

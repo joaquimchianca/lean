@@ -14,7 +14,7 @@ export const TestimonialSection = (props) => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="flex w-full flex-col items-start justify-between rounded-md bg-[#EDDF0D] p-6 md:p-8"
+              className="flex w-full flex-col items-start justify-between rounded-md bg-white/70 shadow-md p-6 md:p-8"
             >
               <blockquote className="text-lg">{testimonial.quote}</blockquote>
               <div className="mt-5 flex w-full flex-col items-start md:mt-6">

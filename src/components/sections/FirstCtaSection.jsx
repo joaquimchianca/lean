@@ -3,9 +3,9 @@ import { DonationBtn } from "@/components/ui/DonationBtn";
 import { SecondaryBtn } from "@/components/ui/SecondaryBtn";
 
 export const CtaSectionDefaults = {
-  heading: "Um Gesto Seu Transforma Vidas",
+  heading: "Seu Gesto é Transformador",
   description:
-    "Seja com uma doação ou um momento do seu tempo, cada gesto de carinho constrói um futuro de dignidade e esperança para nossos idosos.",
+    "Seja com uma doação ou um momento do seu tempo, cada gesto de carinho nos fortalece na nossa missão de amor e cuidado.",
   image: {
     src: "/homepage/primeiro-cta.png",
     alt: "Mãos de um voluntário segurando gentilmente as mãos de uma pessoa idosa",
@@ -25,7 +25,7 @@ export const FirstCtaSection = (props) => {
             <h2 className="mb-5 text-5xl font-bold text-white md:mb-6 md:text-7xl lg:text-8xl">
               {heading}
             </h2>
-            <p className="text-white text-lg">{description}</p>
+            <p className="text-white md:text-lg">{description}</p>
           </div>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 md:mt-8">
             <DonationBtn title="Quero Doar Agora" size="lg" mode="dark" />

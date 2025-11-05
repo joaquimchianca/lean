@@ -18,7 +18,7 @@ export default function NossaHistoriaPage() {
   };
 
   const ctaSectionDefaults = {
-    heading: "Construa um futuro com esperança",
+    heading: "Seja parte da nossa missão",
     description:
       "Cada gesto de solidariedade transforma vidas e constrói dignidade para nossos idosos.",
     image: {
@@ -30,7 +30,7 @@ export default function NossaHistoriaPage() {
   const finalCtaSectionDefaults = {
     heading: "Sua ação transforma vidas",
     description:
-      "Cada contribuição é luz de esperança que sustenta nossa missão de cuidado e dignidado para idosos.",
+      "Cada contribuição é luz de esperança que sustenta nossa missão de cuidado e dignidade para idosos.",
     image: {
       src: "/homepage/cta-fim-da-pagina.png",
       alt: "Mãos de um voluntário e de um idoso se segurando",

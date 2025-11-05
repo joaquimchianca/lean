@@ -12,19 +12,19 @@ export const FeaturesSectionDefaults = {
       icon: <Smile className="size-8" />,
       heading: "Como Sua Doação Ajuda",
       description:
-        "Cada centavo doado se transforma diretamente na vida de nossos residentes em forma de cuidado, conforto e alegria.",
+        "Cada doação se transforma em alimento, medicamentos e conforto para nossos os residentes.",
     },
     {
       icon: <PiggyBank className="size-8" />,
       heading: "Transparência Total",
       description:
-        "Sua contribuição vai direto para o que importa: o bem-estar da nossa comunidade. Sem desvios, sem burocracia.",
+        "100% das doações são revertidas aos custos do lar e bem-estar dos idosos.",
     },
     {
       icon: <ThumbsUp className="size-8" />,
       heading: "Impacto que Conecta",
       description:
-        "Mais que um lar, somos um ponto de encontro que fortalece a comunidade e cria laços que duram a vida inteira.",
+        "Somos um ponto de encontro que fortalece a comunidade e cria laços que duram a vida inteira.",
     },
   ],
 };

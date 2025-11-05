@@ -5,7 +5,7 @@ export const WhatsappCtaSectionDefaults = {
   heading: "Conecte-se Conosco Pelo WhatsApp",
   description:
     "Tem dúvidas ou quer saber mais sobre voluntariado e parcerias? Nossa equipe está pronta para conversar.",
-  whatsappNumber: "5584999837773",
+  whatsappNumber: "558481732368", //+55 84 8173-2368
 };
 
 export const WhatsappCtaSection = (props) => {
