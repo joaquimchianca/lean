@@ -4,7 +4,7 @@ import React from 'react'; // Import React
 
 export const FeaturesSectionDefaults = {
   image: {
-    src: "/homepage/o-que-fazemos.png",
+    src: "/homepage/o-que-fazemos.jpeg",
     alt: "Voluntária conversando com uma idosa residente do lar LEAN",
   },
   featureSections: [
@@ -48,13 +48,12 @@ export const FeaturesSection = (props) => {
     <section className={`${bgColor} ${textColor} px-[5%] py-16 md:py-24 lg:py-28`}>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-x-20">
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 relative w-full aspect-square overflow-hidden rounded-md">
             <Image
               src={image.src}
               alt={image.alt}
-              width={800}
-              height={600}
-              className="w-full h-auto object-cover rounded-md"
+              fill
+              className="object-cover object-top"
             />
           </div>
           <div className="order-1 md:order-2">

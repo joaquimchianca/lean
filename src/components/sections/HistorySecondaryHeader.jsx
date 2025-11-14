@@ -11,7 +11,9 @@ export const HistorySecondaryHeader = (props) => {
       <div className="container">
         <div className="mb-12 grid grid-cols-1 items-start justify-between gap-x-12 gap-y-5 md:mb-18 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:mb-20 lg:gap-x-20">
           <div>
-            <p className="mb-3 w-fit rounded-full bg-[#5E5905] px-6 py-1.5 font-semibold text-white md:mb-4">{tagline}</p>
+            <p className="mb-3 w-fit rounded-full bg-[#5E5905] px-6 py-1.5 font-semibold text-white md:mb-4">
+              {tagline}
+            </p>
             <h3 className="text-5xl font-bold leading-[1.2] md:text-7xl lg:text-8xl">
               {heading}
             </h3>
@@ -32,13 +34,14 @@ export const HistorySecondaryHeader = (props) => {
             </div>
           </div>
         </div>
-        <Image
-          src={image.src}
-          alt={image.alt}
-          width={1920}
-          height={1080}
-          className="h-auto w-full rounded-md object-cover"
-        />
+        <div className="relative w-full aspect-video overflow-hidden rounded-md">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            className="object-cover"
+          />
+        </div>
       </div>
     </section>
   );
@@ -50,7 +53,7 @@ export const Layout105Defaults = {
   description:
     "Movido pela compaixão de Maria Dagmar Falcão de Melo e pela dedicação de voluntários, o LEAN nasceu em Parnamirim como um farol de esperança. Mais que um abrigo, somos uma comunidade fundada na necessidade de cuidar dos mais vulneráveis, transformando vidas através do amor, do respeito e da dignidade.",
   image: {
-    src: "/nossa-historia/section-image.png",
+    src: "/nossa-historia/section-image.jpeg",
     alt: "Fundadora do LEAN, Maria Dagmar, e voluntários em um evento da instituição.",
   },
   features: [

@@ -18,7 +18,7 @@ export const idososInfoSectionData = {
   description:
     "Para nossos 40 residentes, o LEAN é mais que um abrigo; é um verdadeiro lar. Em mais de 2.500 m² de área acessível, oferecemos não apenas cuidados essenciais, mas o mais importante: um ambiente de amor, carinho e respeito profundo pela jornada de cada um.",
   image: {
-    src: "/nosso-trabalho/cuidado-com-idosos-1.png",
+    src: "/nosso-trabalho/cuidado-com-idosos-1.jpeg",
     alt: "Cuidadora conversando carinhosamente com um idoso residente do LEAN",
   },
   bgColor: "bg-brand-olive",
@@ -27,7 +27,7 @@ export const idososInfoSectionData = {
 
 export const idososFeatureSectionData = {
   image: {
-    src: "/nosso-trabalho/cuidado-com-idosos-2.png",
+    src: "/nosso-trabalho/cuidado-com-idosos-2.jpeg",
     alt: "Voluntária sorrindo e auxiliando uma idosa em atividade no LEAN",
   },
   featureSections: [
@@ -97,7 +97,7 @@ export const culturaInfoSectionData = {
   description:
     "No LEAN, transformamos nosso espaço em um centro vivo de troca e conhecimento. Nossos eventos mensais de cultura e educação abrem portas para diálogos significativos, unindo gerações e compartilhando histórias.",
   image: {
-    src: "/nosso-trabalho/espiritual-1.png",
+    src: "/nosso-trabalho/espiritual-1.jpeg",
     alt: "foto de seção",
   },
   bgColor: "bg-brand-light-olive",
@@ -105,7 +105,7 @@ export const culturaInfoSectionData = {
 
 export const culturaFeatureSectionData = {
   image: {
-    src: "/nosso-trabalho/espiritual-2.png",
+    src: "/nosso-trabalho/espiritual-2.jpeg",
     alt: "Voluntária conversando com uma idosa residente do lar LEAN",
   },
   featureSections: [

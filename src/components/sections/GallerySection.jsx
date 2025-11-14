@@ -88,16 +88,28 @@ export const Gallery25Defaults = {
   description: "Registros que contam nossa história e capturam a essência do nosso lar.",
   images: [
     {
-      src: "/nossa-historia/galeria-1.png",
+      src: "/nossa-historia/galeria-1.jpeg",
       alt: "Momento de atividade no LEAN",
     },
     {
-      src: "/nossa-historia/galeria-2.png",
+      src: "/nossa-historia/galeria-2.jpeg",
       alt: "Voluntários e residentes do LEAN",
     },
     {
-      src: "/nossa-historia/galeria-3.png",
+      src: "/nossa-historia/galeria-3.jpeg",
       alt: "Instalações do LEAN",
     },
+    {
+      src: "/nossa-historia/galeria-4.jpeg",
+      alt: "Instalações do LEAN",
+    },
+    {
+      src: "/nossa-historia/galeria-6.jpeg",
+      alt: "Instalações do LEAN",
+    },
+    {
+      src: "/nossa-historia/galeria-8.jpeg",
+      alt: "Instalações do LEAN",
+    }
   ],
 };

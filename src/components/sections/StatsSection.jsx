@@ -11,7 +11,8 @@ export const StatsSectionDefaults = {
     },
     {
       title: "100%",
-      description: "Das doações financeiras são destinadas à manutenção do lar e cuidado para residentes",
+      description:
+        "Das doações financeiras são destinadas à manutenção do lar e cuidado para residentes",
     },
     {
       title: "12",
@@ -24,7 +25,7 @@ export const StatsSectionDefaults = {
     },
   ],
   image: {
-    src: "/homepage/estatisticas.png",
+    src: "/homepage/estatisticas.jpeg",
     alt: "Voluntários e idosos do LEAN celebrando juntos em um evento",
   },
 };
@@ -63,13 +64,14 @@ export const StatsSection = (props) => {
               />
             </div>
           </div>
-          <Image
-            src={image.src}
-            alt={image.alt}
-            width={800}
-            height={800}
-            className="h-auto w-full rounded-md object-cover"
-          />
+          <div className="w-full aspect-square relative rounded-md overflow-hidden">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>

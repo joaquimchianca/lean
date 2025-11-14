@@ -43,7 +43,7 @@ export const HowToHelpSectionDefaults = {
     {
       tagline: "Voluntariado",
       image: {
-        src: "/contato/card-2.png",
+        src: "/contato/card-2.jpeg",
         alt: "Voluntário sorrindo enquanto ajuda um idoso",
       },
       heading: "Compartilhe Seu Tempo e Carinho",
